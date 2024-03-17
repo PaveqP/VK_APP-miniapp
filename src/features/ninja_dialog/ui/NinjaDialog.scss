@@ -1,0 +1,19 @@
+.responseArea{
+    font-family: "Roboto";
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    &__row{
+        width: 800px;
+    }
+
+    &__button{
+        margin-top: 20px;
+        height: 40px;
+        width: 800px;
+    }
+}

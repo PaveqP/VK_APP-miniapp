@@ -1,0 +1,53 @@
+.agifyForm{
+    font-family: "Roboto";
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    &__form{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__input{
+        padding: 10px 20px;
+        border-bottom: 2px solid #0077FF;
+        border-radius: 10px;
+        width: 800px;
+    }
+
+    &__input:focus{
+        border: 2px solid #0077FF;
+    }
+
+    &__response{
+        height: 100px;
+        width: 800px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+    }
+
+    &__age{
+        font-size: 30px;
+        padding-left: 15px;
+        line-height: 30px;
+    }
+
+    &__warning{
+        background-color: rgba($color: orange, $alpha: 0.4);
+        padding: 10px 20px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: 500px;
+    }
+
+    &__button{
+        width: 800px;
+        margin-top: 30px;
+        height: 50px;
+    }
+}

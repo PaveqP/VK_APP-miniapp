@@ -1,0 +1,12 @@
+.header{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    &__navigation{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+}

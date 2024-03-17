@@ -1,0 +1,1 @@
+export { useNinjaQuery } from './useNinjaQuery'

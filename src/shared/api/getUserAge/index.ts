@@ -1,0 +1,1 @@
+export { requestPersonInfo } from './getUserAge'
